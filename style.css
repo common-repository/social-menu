@@ -1,0 +1,328 @@
+@font-face {
+	font-family: 'Font Awesome 5 Brands';
+	src: url('fonts/FontAwesome5Brands-Regular.eot');
+	src: url('fonts/FontAwesome5Brands-Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/FontAwesome5Brands-Regular.woff') format('woff'),
+	url('fonts/FontAwesome5Brands-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+nav ul[id*="social"] li {
+	float: left;
+}
+
+nav ul[id*="social"] a {
+	display: block;
+}
+
+ul[id*="social"] li a:before {
+	content: '';
+	font-family: 'Font Awesome 5 Brands', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1em;
+	width: 1em;
+	color: inherit;
+	letter-spacing: 0;
+}
+
+.social-menu-brand-background ul[id*="social"] li a:before {
+	color: #fff;
+	border-color: #fff;
+}
+
+ul[id*="social"] li a[href*="codepen.io"]:before {
+	content: '\f1cb';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="codepen.io"] {
+	color: #000;
+	border-color: #000;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="codepen.io"] {
+	background: #000;
+	border-color: #000;
+}
+
+ul[id*="social"] li a[href*="digg.com"]:before {
+	content: '\f1a6';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="digg.com"] {
+	color: #2066a3;
+	border-color: #2066a3;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="digg.com"] {
+	background: #2066a3;
+	border-color: #2066a3;
+}
+
+ul[id*="social"] li a[href*="dribbble.com"]:before {
+	content: '\f17d';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="dribbble.com"] {
+	color: #ea4c89;
+	border-color: #ea4c89;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="dribbble.com"] {
+	background: #ea4c89;
+	border-color: #ea4c89;
+}
+
+ul[id*="social"] li a[href*="dropbox.com"]:before {
+	content: '\f16b';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="dropbox.com"] {
+	color: #035ef7;
+	border-color: #035ef7;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="dropbox.com"] {
+	background: #035ef7;
+	border-color: #035ef7;
+}
+
+ul[id*="social"] li a[href*="facebook.com"]:before {
+	content: '\f39e';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="facebook.com"] {
+	color: #3b5998;
+	border-color: #3b5998;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="facebook.com"] {
+	background: #3b5998;
+	border-color: #3b5998;
+}
+
+ul[id*="social"] li a[href*="/feed"]:before {
+	content: '\f09e';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="/feed"] {
+	color: #f60;
+	border-color: #f60;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="/feed"] {
+	background: #f60;
+	border-color: #f60;
+}
+
+ul[id*="social"] li a[href*="flickr.com"]:before {
+	content: '\f16e';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="flickr.com"] {
+	color: #ff0084;
+	border-color: #ff0084;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="flickr.com"] {
+	background: #ff0084;
+	border-color: #ff0084;
+}
+
+ul[id*="social"] li a[href*="plus.google.com"]:before {
+	content: '\f0d5';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="plus.google.com"] {
+	color: #dd4b39;
+	border-color: #dd4b39;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="plus.google.com"] {
+	background: #dd4b39;
+	border-color: #dd4b39;
+}
+
+ul[id*="social"] li a[href*="github.com"]:before {
+	content: '\f09b';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="github.com"] {
+	color: #333;
+	border-color: #333;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="github.com"] {
+	background: #333;
+	border-color: #333;
+}
+
+ul[id*="social"] li a[href*="instagram.com"]:before {
+	content: '\f16d';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="instagram.com"] {
+	color: #c32aa3;
+	border-color: #c32aa3;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="instagram.com"] {
+	background: #c32aa3;
+	border-color: #c32aa3;
+}
+
+ul[id*="social"] li a[href*="linkedin.com"]:before {
+	content: '\f0e1';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="linkedin.com"] {
+	color: #007bb6;
+	border-color: #007bb6;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="linkedin.com"] {
+	background: #007bb6;
+	border-color: #007bb6;
+}
+
+ul[id*="social"] li a[href*="pinterest.com"]:before {
+	content: '\f231';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="pinterest.com"] {
+	color: #bd081c;
+	border-color: #bd081c;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="pinterest.com"] {
+	background: #bd081c;
+	border-color: #bd081c;
+}
+
+ul[id*="social"] li a[href*="reddit.com"]:before {
+	content: '\f1a1';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="reddit.com"] {
+	color: #ff4500;
+	border-color: #ff4500;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="reddit.com"] {
+	background: #ff4500;
+	border-color: #ff4500;
+}
+
+ul[id*="social"] li a[href*="skype.com"]:before {
+	content: '\f17e';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="skype.com"] {
+	color: #00aff0;
+	border-color: #00aff0;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="skype.com"] {
+	background: #00aff0;
+	border-color: #00aff0;
+}
+
+ul[id*="social"] li a[href*="slack.com"]:before {
+	content: '\f198';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="slack.com"] {
+	color: #4a154b;
+	border-color: #4a154b;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="slack.com"] {
+	background: #4a154b;
+	border-color: #4a154b;
+}
+
+ul[id*="social"] li a[href*="stumbleupon.com"]:before {
+	content: '\f1a4';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="stumbleupon.com"] {
+	color: #eb4823;
+	border-color: #eb4823;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="stumbleupon.com"] {
+	background: #eb4823;
+	border-color: #eb4823;
+}
+
+ul[id*="social"] li a[href*="tumblr.com"]:before {
+	content: '\f173';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="tumblr.com"] {
+	color: #32506d;
+	border-color: #32506d;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="tumblr.com"] {
+	background: #32506d;
+	border-color: #32506d;
+}
+
+ul[id*="social"] li a[href*="twitter.com"]:before {
+	content: '\f099';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="twitter.com"] {
+	color: #1da1f2;
+	border-color: #1da1f2;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="twitter.com"] {
+	background: #1da1f2;
+	border-color: #1da1f2;
+}
+
+ul[id*="social"] li a[href*="vimeo.com"]:before {
+	content: '\f27d';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="vimeo.com"] {
+	color: #aad450;
+	border-color: #aad450;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="vimeo.com"] {
+	background: #aad450;
+	border-color: #aad450;
+}
+
+ul[id*="social"] li a[href*="wordpress."]:before {
+	content: '\f411';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="wordpress."] {
+	color: #21759b;
+	border-color: #21759b;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="wordpress."] {
+	background: #21759b;
+	border-color: #21759b;
+}
+
+ul[id*="social"] li a[href*="youtube.com"]:before {
+	content: '\f167';
+}
+
+.social-menu-brand-icon ul[id*="social"] li a[href*="youtube.com"] {
+	color: #f00;
+	border-color: #f00;
+}
+
+.social-menu-brand-background ul[id*="social"] li a[href*="youtube.com"] {
+	background: #f00;
+	border-color: #f00;
+}
